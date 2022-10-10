@@ -8,6 +8,13 @@ app.get('/', (req,res)=>{
 
 });
 
+app.get('/nuevaruta', (req,res)=>{
+  res.send('nueva ruta');
+
+});
+
+
+
 app.listen(port,()=>{
   console.log('mi port'+port);
 
